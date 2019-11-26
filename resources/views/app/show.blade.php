@@ -16,7 +16,4 @@
       </div>
     </div>
   </div>
-  <!-- Dit is gewoon een test
-  Dit is test tweee 
-  Dit is test drie-->
 @endsection

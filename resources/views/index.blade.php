@@ -6,9 +6,10 @@
 
 
 @section('content')
-  
+
+
     @section('side')
-    <div class="sportschool-section container">
+    <!--<div class="sportschool-section container">
         <div class="sidebar">
             <h3>Sportschool</h3>
                 <ul>
@@ -18,6 +19,7 @@
                 </ul>
         </div>
     </div>
+    -->
 
     @endsection
 
@@ -40,7 +42,6 @@
   </div> 
     @endforeach
 </div>
-
 
 @endforeach
   

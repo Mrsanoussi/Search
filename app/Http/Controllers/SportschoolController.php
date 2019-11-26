@@ -26,7 +26,7 @@ class SportschoolController extends Controller
             $categories = Category::all();
         }
         //dd($categories);
-        //$sportschools = Sportschool::find(1);
+        //$sportschools = Sportschool::find(2);
         //$sportschools->categories()->attach(5);
         //dd($sportschools->categories);
     
