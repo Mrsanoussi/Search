@@ -1,0 +1,78 @@
+[
+    {
+      "name": "BasicFit Rotterdam Overschie",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+      "price": "20",
+      "showers": true
+    },
+    
+    {
+        "name": "Fit for Free Schiedam",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "10",
+        "showers": false
+    },
+      
+    {
+        "name": "HealthCity",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "15",
+        "showers": false
+    },
+    
+    {
+        "name": "David Lloyd Rotterdam Centrum",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "35",
+        "showers": true
+    },
+
+    {
+        "name": "MyLife Rotterdam Alexander",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "25",
+        "showers": true
+    },
+
+    {
+        "name": "BasicFit Rotterdam Alexander",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "20",
+        "showers": true 
+    },
+
+    {
+        "name": "Fit for Free Rotterdam Alexander",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "10",
+        "showers": false
+    },
+    
+    {
+        "name": "David Lloyd Cappele",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "35",
+        "showers": true 
+    },
+
+    {
+        "name": "BasicFit Gouda",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "20",
+        "showers": true 
+    },
+
+    {
+        "name": "HealthCity Gouda",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "15",
+        "showers": false
+    },
+
+    {
+        "name": "MyLife Gouda",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,",
+        "price": "25",
+        "showers": true 
+    }
+]
