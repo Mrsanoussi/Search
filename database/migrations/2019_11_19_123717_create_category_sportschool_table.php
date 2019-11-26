@@ -14,11 +14,13 @@ class CreateCategorySportschoolTable extends Migration
     public function up()
     {
         Schema::create('category_sportschool', function (Blueprint $table) {
-            $table->integer('sportschool_id')->unsigned()->nullable();
-            $table->foreign('sportschool_id')->references('sportschools_id')->on('sportschools');
-            $table->integer('category_id')->unsigned()->nullable();
+            /*$table->integer('sportschool_id')->unsigned();
+            $table->foreign('sportschool_id')->references('sportschool_id')->on('sportschools');
+            $table->integer('category_id')->unsigned();
             $table->foreign('category_id')->references('category_id')->on('categories');
             /**/
+            $table->integer('sportschool_id')->unsigned();
+            $table->integer('category_id')->unsigned();
             $table->timestamps();
         });
     }

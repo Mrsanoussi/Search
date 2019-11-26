@@ -5,11 +5,12 @@
 @endsection
 
 
+
 @section('content')
 
 
     @section('side')
-    <!--<div class="sportschool-section container">
+    <div class="sportschool-section container">
         <div class="sidebar">
             <h3>Sportschool</h3>
                 <ul>
@@ -19,10 +20,20 @@
                 </ul>
         </div>
     </div>
+    
+    <!--
+    <div class="filter">
+      <ul class="checkbox-filter">
+        <li>
+        <input type="checkbox" id=""
+      </ul
+    </div>
+
+
+
+    
     -->
-
     @endsection
-
 @foreach($sportschools->chunk(4) as $sportschoolChunk)
 <div class="row mt-1">
     @foreach($sportschoolChunk as $sportschool)

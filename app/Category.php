@@ -9,6 +9,6 @@ class Category extends Model
 {
     public function sportschools()
     {
-        return $this->belongsToMany('App\Sportschool');
+        return $this->belongsToMany(Sportschool::class);
     }
 }

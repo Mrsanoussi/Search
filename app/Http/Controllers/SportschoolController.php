@@ -15,9 +15,9 @@ class SportschoolController extends Controller
     public function index(Request $request)
     {
         if(request()->category){
-            $sportschools = Sportschool::with('categories')->whereHas('categories', function ($query){
-                $query->where('name', request()->catagory);
-            })->get();
+            $sportschools = Category::with('sportschools')->whereHas('sportschools', function ($query){
+                $query->where('name', request()->catagory)->get();
+            });
             
             $categories = Category::all();
             
@@ -26,8 +26,8 @@ class SportschoolController extends Controller
             $categories = Category::all();
         }
         //dd($categories);
-        //$sportschools = Sportschool::find(2);
-        //$sportschools->categories()->attach(5);
+        //$sportschools = Sportschool::find(1);
+        //$sportschools->categories()->attach(1);
         //dd($sportschools->categories);
     
        
