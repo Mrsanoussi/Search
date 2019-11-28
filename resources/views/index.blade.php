@@ -9,13 +9,14 @@
 @section('content')
 
 
+
     @section('side')
-    <div class="sportschool-section container">
+    <div class="col-sm-6 mt-4 align-self-start">
         <div class="sidebar">
             <h3>Sportschool</h3>
                 <ul>
                 @foreach ($categories as $category)
-                    <li><a href="{{ route('index', ['category' => $category->name]) }}">{{ $category->name }}</a></li>
+                    <li type="none"><a href="{{ route('index', ['category' => $category->slug]) }}">{{ $category->name }}</a></li>
                 @endforeach
                 </ul>
         </div>

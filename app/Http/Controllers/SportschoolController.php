@@ -16,17 +16,20 @@ class SportschoolController extends Controller
     {
         if(request()->category){
             $sportschools = Category::with('sportschools')->whereHas('sportschools', function ($query){
-                $query->where('name', request()->category);
+                    $query->where('name', 'LIKE', '%' .request()->category. '%');
             })->get();
-            
+            dd($sportschools);
+
             $categories = Category::all();
             
+            
+            
         } else {
-            $sportschools = Sportschool::paginate(8);
+            $sportschools = Sportschool::inRandomOrder()->take(8)->get();
             $categories = Category::all();
         }
         //dd($categories);
-        //$sportschools = Sportschool::find(5);
+        //$sportschools = Sportschool::find(6);
         //$sportschools->categories()->attach(5);
         //dd($sportschools->categories);
     
